@@ -2,7 +2,7 @@
 # DataStructure Journey
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs){:target="_blank" rel="noopener"}
 
-This repo represents all we learned and are learning in Data Structure course which is based on *CLRS* book and is being taught by [Dr. Ali Katanforoush](http://facultymembers.sbu.ac.ir/katanforoush/){:target="_blank" rel="noopener"}.
+This repo represents all we learned and are learning in Data Structure course which is based on *CLRS* book and is being taught by [Dr. Ali Katanforoush](http://facultymembers.sbu.ac.ir/katanforoush/).
 
 ## Algorithms
 
@@ -22,7 +22,7 @@ Every little task in real life that contains some arranging or keeping some orde
 [more...](https://github.com/apri-me/datastructure-journey/tree/master/sorting_problem)
 ## Authors
 
-- [@Alireza Afroozi](https://www.github.com/apri-me){:target="_blank" rel="noopener"}
-- [@Mobin Nesari](https://www.github.com/MobinNesari81){:target="_blank" rel="noopener"}
+- [@Alireza Afroozi](https://www.github.com/apri-me)
+- [@Mobin Nesari](https://www.github.com/MobinNesari81)
 
 <a href="http://example.com" target="_blank">http://example.com</a>
