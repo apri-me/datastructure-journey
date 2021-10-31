@@ -20,9 +20,9 @@ of the input sequence such that a<sup>'</sup><sub>1</sub>  <  a<sup>'</sup><sub>
 There are alot of algorithms that solves sorting problem. Some of theme are faster than others when the volume of data grows. Some of theme are faster in small collections. 
 Lots of theme don't use extra memory and a few of theme do. Here are the types of algorithms that we studied.
 
-- [Insersion Sort](/insertion_sort)
-- [Bubble Sort](/bubble_sort)
-- [Merge Sort](/merge_sort)
+- [Insersion Sort](sorting_problem/insertion_sort)
+- [Bubble Sort](sorting_problem/bubble_sort)
+- [Merge Sort](sorting_problem/merge_sort)
 
 If you lookup in the web you can find more algorithms to study.
 
