@@ -41,5 +41,5 @@ Obviously it's a recursive relation, and after a lot of calculations we can say 
 #### Memory:
 Nowadays most sorting algorithms are in-place. It means that they don't use extra memory beside input. But merge sort's weakness is memory and it uses *&Theta;(n)* amount of memory. 
 
-You may see in books and internet that it takes exactly same mount of memory as input, but in our version of merge code at most it uses about &frac2; of input size.
+You may see in books and internet that it takes exactly same mount of memory as input, but in our version of merge code at most it uses about '1/2' of input size.
 
