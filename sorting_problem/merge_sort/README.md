@@ -34,7 +34,9 @@ Now we define *Merge Sort* Algorithm in terms of *Divide and Conquer* approach.
 #### Time:
 We analyze this algorithm step by step. In *Divide* step it takes constant time to find `q` so it is &theta;(1).  Conquer step is to solving two subproblem with half-size input. So it takes 2T(n).
 
-$$ T(n) = 2T(\frac{n}{2}) + \Theta(n) $$
-
 
 #### Memory:
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
