@@ -32,11 +32,14 @@ Now we define *Merge Sort* Algorithm in terms of *Divide and Conquer* approach.
  `merge(A, p, q, r)`
 ### Analysis:
 #### Time:
-We analyze this algorithm step by step. In *Divide* step it takes constant time to find `q` so it is &theta;(1).  Conquer step is to solving two subproblem with half-size input. So it takes 2T(n).
+We denote the time of algorithm by *T(n)*. Then we analyze this algorithm step by step. In *Divide* step it takes constant time to calculate `q` so it is *&theta;(1)*.  Conquer step is to solving two subproblem with half-size input. So it takes *2 &times; T(n)*. And in the last step, combining two sorted subsequence takes *&Theta;(n)* time for both worst case and best case. It means that:
+<p align='center'><i> T(n) = 2 &times; T(n/2) + &Theta;(n) </i> </p>
+Obviously it's a recursive relation, and after a lot of calculations we can say that:
 
+<p align='center'><i> T(n) = &Theta;(n log(n) )</i> </p>
 
 #### Memory:
+Nowadays most sorting algorithms are in-place. It means that they don't use extra memory beside input. But merge sort's weakness is memory and it uses *&Theta;(n)* amount of memory. 
 
-$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+You may see in books and internet that it takes exactly same mount of memory as input, but in our version of merge code at most it uses about *1/2* of input size.
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
