@@ -190,7 +190,7 @@ cython_debug/
 # Ignore all local history of files
 .history
 .ionide
-
+.DS_Store
 # Support for Project snippet scope
 !.vscode/*.code-snippets
 
