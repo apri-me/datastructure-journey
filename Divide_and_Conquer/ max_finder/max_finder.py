@@ -8,8 +8,3 @@ def maximum(Array):
             return a
         else:
             return b
-
-
-n = int(input("Array size: "))
-array = [int(input()) for _ in range(n)]
-print(f"Maximum of this Array is : {maximum(array)}")
