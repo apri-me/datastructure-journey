@@ -26,11 +26,11 @@ Now we define *Merge Sort* Algorithm in terms of *Divide and Conquer* approach.
  1. **Divide**:
  Divide each n-element sequence that should be sorted, into two subsequence of ( n / 2 ) elements each.
 `q = floor((p+r) / 2)`
- 2. :**Conquer**:
+ 2. **Conquer**:
  Sort two subsequence recursively and if size of subsequence is very small just return it.
  `merge_sort(A, p, q)`
  `merge_sort(A, q+1, r)`
- 3. : **Combine**:
+ 3. **Combine**:
  Merge the two subsequences that is sorted and produce the sorted answer.
  `merge(A, p, q, r)`
 ### Analysis:
