@@ -2,7 +2,7 @@
 # DataStructure Journey
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-This repo represents all we learned and are learning in Data Structure course which is based on *CLRS* book and is being taught by [Dr. Ali Katanforoush](http://facultymembers.sbu.ac.ir/katanforoush/).
+This repo represents all we learned and are learning in Data Structure course which is based on *CLRS* book and is being presented by [Dr. Ali Katanforoush](http://facultymembers.sbu.ac.ir/katanforoush/).
 
 ## Algorithms
 
