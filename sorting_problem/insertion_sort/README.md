@@ -37,7 +37,7 @@ Now this array is sorted.
 #### Best Case:
 
 Best case for this algorithm will be an array which is sorted right now and function need to check every element once to see if it is sorted or not. Time complexity for this case will be
-<div>T(n) = c<sub>1</sub>&times; n + (c<sub>2</sub> + c<sub>3</sub>) &times; (n - 1) + c<sub>4</sub> &times; (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) + (c<sub>5</sub> + c<sub>6</sub>)&times;  ( (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) - 1) + c<sub>8</sub> &times; (n - 1)</div>
+*<span>T(n) = c<sub>1</sub>&times; n + (c<sub>2</sub> + c<sub>3</sub>) &times; (n - 1) + c<sub>4</sub> &times; (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) + (c<sub>5</sub> + c<sub>6</sub>)&times;  ( (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) - 1) + c<sub>8</sub> &times; (n - 1)</span>*
 <p align='center'><i> T(n) = O(n)</i> </p>
 
 #### Worst Case:
