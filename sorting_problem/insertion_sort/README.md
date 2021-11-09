@@ -1,7 +1,8 @@
 
+
 # DataStructure Journey
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)  
-  
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 ## Insertion Sort
 Insertion sort works the way many people sort a hand of playing cards. We start with an empty left hand and the cards face down on the table. We then remove one card at a time from the table and insert it into the correct position in the left hand. To find the correct position for a card, we compare it with each of the cards already in the hand, from right to left.
 This is an efficient algorithm for sorting a small number of elements.
@@ -17,14 +18,14 @@ After doing this loop for whole array, all elements will be in their correct ind
 
 ### Example
 [**12**, 11, 13, 5, 6  ]
-Let us loop for i = 1 (second element of the array) to 4 (last element of the array)  
-i = 1. Since 11 is smaller than 12, move 12 and insert 11 before 12  
+Let us loop for i = 1 (second element of the array) to 4 (last element of the array)
+i = 1. Since 11 is smaller than 12, move 12 and insert 11 before 12
 [**11, 12**, 13, 5, 6  ]
-i = 2. 13 will remain at its position as all elements in A[0..I-1] are smaller than 13  
+i = 2. 13 will remain at its position as all elements in A[0..I-1] are smaller than 13
 [**11, 12, 13**, 5, 6  ]
-i = 3. 5 will move to the beginning and all other elements from 11 to 13 will move one position ahead of their current position.  
+i = 3. 5 will move to the beginning and all other elements from 11 to 13 will move one position ahead of their current position.
 [**5, 11, 12, 13**, 6  ]
-i = 4. 6 will move to position after 5, and elements from 11 to 13 will move one position ahead of their current position.  
+i = 4. 6 will move to position after 5, and elements from 11 to 13 will move one position ahead of their current position.
 [**5, 6, 11, 12, 13**]
 Now this array is sorted.
 
@@ -35,12 +36,12 @@ Now this array is sorted.
 
 #### Best Case:
 
-Best case for this algorithm will be an array which is sorted right now and function need to check every element once to see if it is sorted or not. Time complexity for this case will be 
-T( n ) = C1 * n + ( C2 + C3 ) * ( n - 1 ) + C4 * ( n - 1 ) ( n ) / 2 + ( C5 + C6 ) * ( ( n - 1 ) (n ) / 2 - 1) + C8 * ( n - 1 )
+Best case for this algorithm will be an array which is sorted right now and function need to check every element once to see if it is sorted or not. Time complexity for this case will be
+<div>T(n) = c<sub>1</sub>&times; n + (c<sub>2</sub> + c<sub>3</sub>) &times; (n - 1) + c<sub>4</sub> &times; (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) + (c<sub>5</sub> + c<sub>6</sub>)&times;  ( (<span>  </span><sup>(n-1)(n)</sup> &#8260; <sub>2</sub><span>  </span>) - 1) + c<sub>8</sub> &times; (n - 1)</div>
 <p align='center'><i> T(n) = O(n)</i> </p>
 
 #### Worst Case:
-Worst case for this algorithm will be a decreasing order array. In this case every element need to travel whole array for being in correct index. Time complexity for this case will be 
+Worst case for this algorithm will be a decreasing order array. In this case every element need to travel whole array for being in correct index. Time complexity for this case will be
 <p align='center'><i> T(n) =O(n<sup>2</sup>)</i> </p>
 
 #### Average Case:
