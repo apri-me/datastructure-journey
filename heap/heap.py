@@ -27,4 +27,11 @@ def build_max_heap(array):
     for i in range(math.floor((len(array)-1)/2), 0, -1):
         max_heapify(array, i)
 
+def heap_sort(array):
+    build_max_heap(array)
+    heap_size = len(array) - 1
+    for i in range(heap_size, 0, -1):
+        array[i], array[1] = array[1], array[i]
+        max_heapify(array, i)
+
 #Just consider index your array from 1 to n and using a list with n + 1 elements! First element is not useful at all.
