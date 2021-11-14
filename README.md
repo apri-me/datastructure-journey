@@ -19,7 +19,16 @@ input into the output.
 
 Every little task in real life that contains some arranging or keeping some orders has a kind of sorting problem in it. For instance if you're a teacher and you want to have a list of your students in an the order of their grades in exams, you need an algorithm to sort them.
 [more...](/sorting_problem)
+
+## Divide and Conquer
+
+*Divide and Conquer* approach is basically a recursive method to solve some important problems like *Sorting problem*. [Here](/divide_and_conquer) you can see more about this approach.
+
 ## Authors
 
 - [@Alireza Afroozi](https://www.github.com/apri-me)
 - [@Mobin Nesari](https://www.github.com/MobinNesari81)
+
+
+
+

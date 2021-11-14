@@ -24,6 +24,7 @@ Lots of theme don't use extra memory and a few of theme do. Here are the types o
 - [Bubble Sort](bubble_sort)
 - [Merge Sort](merge_sort)
 - [Quick Sort](quick_sort)
+- [Heap Sort](heap_sort)
 
 If you lookup in the web you can find more algorithms to study.
 
