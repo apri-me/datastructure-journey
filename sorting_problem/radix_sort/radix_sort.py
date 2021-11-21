@@ -25,8 +25,3 @@ def radix_sort(arr):
     while 0 < exp < arr_max:
         counting_sort(arr, exp, 9)
         exp *= 10
-
-
-# a = [121, 876, 321, 12, 565, 342, 171, 392, 717, 999]
-# radix_sort(a)
-# print(a)
