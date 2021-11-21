@@ -1,4 +1,4 @@
-#Bubble Sort implementation.
+# Bubble Sort implementation.
 def bubbleSort(array):
     for i in range(len(array) - 1, -1, -1):
         for j in range(i):
@@ -7,14 +7,18 @@ def bubbleSort(array):
         print(array)
     return array
 
-#Exchange function implementation.
+# Exchange function implementation.
+
+
 def exchange(array, i, j):
     temp = array[i]
     array[i] = array[j]
     array[j] = temp
     return array
 
-#Improved bubble sort implementation.
+# Improved bubble sort implementation.
+
+
 def improvedBubbleSort(array):
     flag = True
     for i in range(len(array) - 1, -1, -1):
@@ -26,6 +30,7 @@ def improvedBubbleSort(array):
         if flag:
             break
     return array
+
 
 a = input().split()
 nums = []

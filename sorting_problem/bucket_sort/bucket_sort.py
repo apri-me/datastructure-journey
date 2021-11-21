@@ -2,6 +2,8 @@
     Implementation of Bucket sort and an improved version for arbitrary elements.
 '''
 import math
+
+
 def bucket_sort(array):
     answer = []
     counter = [[] for i in range(len(array))]
@@ -15,6 +17,7 @@ def bucket_sort(array):
         for j in i:
             answer.append(j)
     return answer
+
 
 def improved_bucket_sort(array):
     max_element = max(array)

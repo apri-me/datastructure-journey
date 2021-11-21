@@ -29,4 +29,3 @@ def merge_sort(A, p=0, r=None):
         merge_sort(A, p, q)
         merge_sort(A, q+1, r)
         merge(A, p, q, r)
-
