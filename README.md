@@ -24,6 +24,10 @@ Every little task in real life that contains some arranging or keeping some orde
 
 *Divide and Conquer* approach is basically a recursive method to solve some important problems like *Sorting problem*. [Here](/divide_and_conquer) you can see more about this approach.
 
+## Elementary Data structures
+
+*Elementary Data structures* are the simplest kinds of dynamic sets. They give you first visions of how to implement a data structure in real world. [Read more](/elementary_datastructures) in its own section ...
+
 ## Authors
 
 - [@Alireza Afroozi](https://www.github.com/apri-me)
