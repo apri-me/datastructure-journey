@@ -42,6 +42,6 @@ Assume in each recursion original problem divides into *a* sub-problem with *n/b
 
  - [Merge Sort](../sorting_problem/merge_sort)
  - [Quick Sort](../sorting_problem/quick_sort)
- - [Maximum Finder](/max_finder)
+ - [Maximum Finder](max_finder)
  - &#8943;
 
