@@ -9,15 +9,23 @@ public class Stack<T> {
         this.top = -1;
     }
 
+    public boolean empty() {
+        return this.top == -1;
+    }
+
+    public boolean full() {
+        return this.top == this.max_size - 1;
+    }
+
     public void push(T x) throws StackOverflowException{
-        if (this.top == this.max_size - 1)
+        if (this.full())
             throw new StackOverflowException();
         this.top ++;
         this.array[top] = x;
     }
 
     public T pop() throws StackIsEmpty{
-        if (top == -1)
+        if (this.empty())
             throw new StackIsEmpty();
         this.top --;
         return this.array[top+1];
