@@ -71,12 +71,3 @@ class Linked_List: # Implementing Linked List
         for i in answer:
             string += str(i) + ' '
         return string[:len(string) - 1]
-
-
-
-ll = Linked_List()
-ll.append(1)
-ll.append(2)
-ll.append(3)
-ll.prepend(4)
-ll.printer()
