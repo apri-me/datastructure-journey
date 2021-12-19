@@ -41,14 +41,16 @@ class BST:
             elif item > temp.value:
                 temp = temp.right
 
+    # we assume self.root to be Non-NIL
     def min(self):
         temp = self.root
-        while temp is not None:
+        while temp.left:
             temp = temp.left
         return temp
 
+    # we assume self.root to be Non-NIL
     def max(self):
         temp = self.root
-        while temp is not None:
+        while temp.right:
             temp = temp.right
         return temp
