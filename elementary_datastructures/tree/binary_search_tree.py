@@ -40,3 +40,15 @@ class BST:
                 temp = temp.left
             elif item > temp.value:
                 temp = temp.right
+
+    def min(self):
+        temp = self.root
+        while temp is not None:
+            temp = temp.left
+        return temp
+
+    def max(self):
+        temp = self.root
+        while temp is not None:
+            temp = temp.right
+        return temp
