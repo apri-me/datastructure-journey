@@ -3,6 +3,7 @@ class Node:
         self.value = value
         self.right = None
         self.left = None
+        self.parent = None
 
 
 class BST:
@@ -21,11 +22,13 @@ class BST:
             elif value < temp.value:
                 if temp.left is None:
                     temp.left = node
+                    node.parent = temp
                     return True
                 temp = temp.left
             elif value > temp.value:
                 if temp.right is None:
                     temp.right = node
+                    node.parent = temp
                     return True
                 temp = temp.right
 
