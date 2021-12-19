@@ -41,16 +41,18 @@ class BST:
             elif item > temp.value:
                 temp = temp.right
 
-    # we assume self.root to be Non-NIL
-    def min(self):
-        temp = self.root
+    # we assume x to be Non-NIL
+    @staticmethod
+    def min_node_in_subtree(x: Node):
+        temp = x
         while temp.left:
             temp = temp.left
         return temp
 
-    # we assume self.root to be Non-NIL
-    def max(self):
-        temp = self.root
+    # we assume x to be Non-NIL
+    @staticmethod
+    def max_node_in_subtree(x: Node):
+        temp = x
         while temp.right:
             temp = temp.right
         return temp
