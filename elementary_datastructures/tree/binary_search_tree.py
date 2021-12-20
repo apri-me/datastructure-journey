@@ -69,3 +69,13 @@ class BST:
             if x.parent.left == x:
                 return x.parent
             x = x.parent
+
+    def predecessor(self, x: Node):
+        if x.left:
+            return self.max_node_in_subtree(x.left).value
+        while True:
+            if x.parent is None:
+                return None
+            if x.parent.right == x:
+                return x.parent.value
+            x = x.parent
