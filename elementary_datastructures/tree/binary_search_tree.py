@@ -60,6 +60,7 @@ class BST:
             temp = temp.right
         return temp
 
+    # we assume x to be Non-NIL
     def successor(self, x: Node):
         if x.right:
             return self.min_node_in_subtree(x.right)
@@ -70,6 +71,7 @@ class BST:
                 return x.parent
             x = x.parent
 
+    # we assume x to be Non-NIL
     def predecessor(self, x: Node):
         if x.left:
             return self.max_node_in_subtree(x.left).value
