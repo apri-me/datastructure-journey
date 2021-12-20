@@ -71,6 +71,17 @@ class BST:
                 return x.parent
             x = x.parent
 
+    def subtree_insert_after(self, x: Node, value):
+        new = Node(value)
+        if x.right is None:
+            x.right = new
+            new.parent = x
+            return True
+        successor = self.successor(x)
+        successor.left = new
+        new.parent = successor
+        return True
+
     # we assume x to be Non-NIL
     def predecessor(self, x: Node):
         if x.left:
