@@ -81,3 +81,10 @@ class BST:
             if x.parent.right == x:
                 return x.parent.value
             x = x.parent
+
+    # we assume x to be Non-NIL
+    def traverse(self, x: Node):
+        if x:
+            self.traverse(x.left)
+            print(x.value, end=" ")
+            self.traverse(x.right)
