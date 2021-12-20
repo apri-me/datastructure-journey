@@ -46,7 +46,7 @@ class BST:
 
     # we assume x to be Non-NIL
     @staticmethod
-    def min_node_in_subtree(x: Node):
+    def subtree_first(x: Node):
         temp = x
         while temp.left:
             temp = temp.left
@@ -54,7 +54,7 @@ class BST:
 
     # we assume x to be Non-NIL
     @staticmethod
-    def max_node_in_subtree(x: Node):
+    def subtree_last(x: Node):
         temp = x
         while temp.right:
             temp = temp.right
@@ -63,7 +63,7 @@ class BST:
     # we assume x to be Non-NIL
     def successor(self, x: Node):
         if x.right:
-            return self.min_node_in_subtree(x.right)
+            return self.subtree_first(x.right)
         while True:
             if x.parent is None:
                 return None
@@ -86,7 +86,7 @@ class BST:
     # we assume x to be Non-NIL
     def predecessor(self, x: Node):
         if x.left:
-            return self.max_node_in_subtree(x.left).value
+            return self.subtree_last(x.left).value
         while True:
             if x.parent is None:
                 return None
@@ -105,6 +105,9 @@ class BST:
         predecessor.right = new
         new.parent = predecessor
         return True
+
+    def subtree_delete(self, x: Node):
+        pass
 
     # we assume x to be Non-NIL
     def traverse(self, x: Node):
