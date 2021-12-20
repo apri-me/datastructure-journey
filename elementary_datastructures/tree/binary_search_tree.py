@@ -59,3 +59,13 @@ class BST:
         while temp.right:
             temp = temp.right
         return temp
+
+    def successor(self, x: Node):
+        if x.right:
+            return self.min_node_in_subtree(x.right)
+        while True:
+            if x.parent is None:
+                return None
+            if x.parent.left == x:
+                return x.parent
+            x = x.parent
