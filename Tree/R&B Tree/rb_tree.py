@@ -81,7 +81,7 @@ class RBTree:  # Tree definition
         y.right = x
         x.parent = y
 
-    def fix_insert(self, new_node):  # Fix color of violence nodes
+    def fix_insert(self, new_node):  # Fix color of violation nodes
         while new_node != self.root and new_node.parent.red:
             if new_node.parent == new_node.parent.parent.right:
                 u = new_node.parent.parent.left  # uncle
